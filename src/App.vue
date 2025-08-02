@@ -4,7 +4,8 @@
      <!-- <VBind /> -->
      <!-- <VModel /> -->
       <!-- <ConditionalRendering /> -->
-      <VFor />
+      <!-- <VFor /> -->
+      <Methods />
   </div>
 </template>
 
@@ -14,6 +15,6 @@
 // import VModel from './components/VModel.vue';
 // import ConditionalRendering from './components/ConditionalRendering.vue';
 // import VFor from './components/VFor.vue';
-import VFor from './components/VFor.vue';
+import Methods from './components/Methods.vue';
 </script>
 
