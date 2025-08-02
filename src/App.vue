@@ -11,13 +11,15 @@
         <!-- <Props name="Farzeen Ali" email="farzeen@gmail.com" /> -->
          <!-- <EmittingEvents @notify="handleNotify" />
          <p v-if="message">{{ message }}</p> -->
-         <LifeCycleHooks />
+         <!-- <LifeCycleHooks /> -->
+          <ReactiveData />
   </div>
 </template>
 
 <script setup>
-import LifeCycleHooks from './components/LifeCycleHooks.vue';
+import ReactiveData from './components/ReactiveData.vue';
 
+// import LifeCycleHooks from './components/LifeCycleHooks.vue';
 // import EmittingEvents from './components/EmittingEvents.vue';
 // import Props from './components/Props.vue';
 // import TemplateSyntax from './components/TemplateSyntax.vue'
